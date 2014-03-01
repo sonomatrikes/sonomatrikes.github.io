@@ -27,14 +27,35 @@ title: Sonoma Trikes
     </ul>
   </div>
   <div class="col-md-6">
-    <div id="map-canvas"></div>
-    <h2>Get your own Trike!</h2>
-    <p>Appointments are available, at the times shown below, and weekends are some what flexible:<br />
-          Mon - Fri: 7:00 am - 7:00 pm<br />
-          Sat - Sun: 10:00 am - 4:00 pm<br />
+    <section>
+      <h2>Our Manufacturers</h2>
+      <dl class="manufacturers">
+      {% for manufacture in site.data.manufacturers %}
+        <dt>
+          {% if manufacture.icon %}
+          <img width="16" height="16" src="{{manufacture.icon}}">
+          {% else %}
+          <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+          {% endif %}
+          <a href="{{manufacture.url}}">{{manufacture.name}}</a>
+        </dt>
+        {% if manufacture.description %}
+        <dd>{{manufacture.description}}</dd>
+        {% endif %}
+      {% endfor %}
+      </dl>
+      <a href="/trikes" class="btn btn-primary">Find a Trike to Ride!</a>
+    </section>
+    <section>
+      <h2>Get your own Trike!</h2>
+      <div id="map-canvas"></div>
+      <p>Appointments are available, at the times shown below, and weekends are some what flexible:<br />
+            Mon - Fri: 7:00 am - 7:00 pm<br />
+            Sat - Sun: 10:00 am - 4:00 pm<br />
 
-      To arrange a visit please call or text (925) 301-7043
-      </p>
+        To arrange a visit please call or text (925) 301-7043
+        </p>
+    </section>
   </div>
 </div>
 
