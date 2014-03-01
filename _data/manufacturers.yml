@@ -1,0 +1,21 @@
+- name: ICE 
+  url: http://www.icetrikes.co/
+  description: UK touring and performance recumbent trikes
+
+- name: KMX USA
+  url: http://www.kmxus.com/
+  description: Tadpole trikes from kids to adults
+
+- name: Catrike
+  url: http://www.catrike.com/
+  icon: http://static.wixstatic.com/ficons/be9aca_e2fd264cf67a6a7eade5ef6d78fe2fc2_fi.ico
+  description: USA made sport and touring recumbent tadpole tricycles
+
+- name: Trisled
+  url: http://www.trisled.com.au/
+  description: Australian made Rotovelo velomobile and recumbent touring tadpole tricycles
+
+- name: TerraTrike
+  url: http://www.terratrike.com/
+  icon: http://www.terratrike.com/images/pageElements/favicon.ico
+  description: Recumbent for every need and budget
