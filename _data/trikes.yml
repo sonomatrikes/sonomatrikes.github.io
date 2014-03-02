@@ -1,0 +1,153 @@
+## ICE
+
+- name: Adventure FS
+  brand: ICE
+  img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20RS.jpg
+  msrp: $3543.88
+  wheels: 20"
+  steering: Indirect
+  url: http://www.icetrikes.co/explore-our-trikes/adventure
+  rental_rate_week: $350
+
+- name: Sprint FS
+  brand: ICE
+  img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%2026.jpg
+  msrp: $3022.16
+  wheels: 20"x26"
+  steering: Indirect
+  url: http://www.icetrikes.co/explore-our-trikes/sprint
+  rental_rate_week: $350
+
+- name: VTX+
+  brand: ICE
+  img: http://www.icetrikes.co/image/medium/VTX%202014-00678b.jpg
+  msrp: $5829.02
+  wheels: 20"x26"
+  steering: Indirect
+  url: http://www.icetrikes.co/explore-our-trikes/vtx
+
+
+## Catrike
+
+- name: 700
+  brand: Catrike
+  img: https://www.hostelshoppe.com/images/products/lb_13cat_700.jpg
+  msrp: $2950
+  steering: Direct
+  wheels: 20"x26"
+  url: "http://www.catrike.com/#!700/c1dnt"
+  rental_rate_week: $250
+
+- name: Pocket
+  brand: Catrike
+  img: https://www.hostelshoppe.com/images/products/lb_13cat_pocket.jpg
+  msrp: $2150
+  steering: Direct
+  wheels: 20"
+  url: "http://www.catrike.com/#!pocket/c1ap4"
+  rental_rate_week: $250
+
+- name: Villager
+  brand: Catrike
+  img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
+  msrp: $2350
+  steering: Direct
+  wheels: 20"
+  url: "http://www.catrike.com/#!villager/cmei"
+  rental_rate_week: $250
+
+- name: Expedition
+  brand: Catrike
+  img: https://www.hostelshoppe.com/images/products/lb_13cat_expedition.jpg
+  msrp: $2550
+  wheels: 20"x26"
+  steering: Direct
+  url: "http://www.catrike.com/#!expedition/c2465"
+  rental_rate_week: $250
+
+
+## TerraTrike
+
+- name: Rover
+  brand: TerraTrike
+  img: http://www.terratrike.com/images/trikes/rover/roverPanel1Lg.jpg
+  msrp: $1199
+  wheels: 20"
+  steering: Direct
+  url: "http://www.terratrike.com/rover.php"
+  rental_rate_week: $125
+
+- name: Rover Tandem
+  brand: TerraTrike
+  img: http://cdn3.volusion.com/cwfyc.waupt/v/vspfiles/photos/Rover-Tandem-2.jpg
+  msrp: $2447.00
+  wheels: 20"
+  steering: Direct
+  url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
+  rental_rate_week: $250
+
+- name: Rambler GT
+  brand: TerraTrike
+  img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
+  msrp: $2199
+  wheels: 20"
+  steering: Direct
+  url: "http://www.terratrike.com/rambler.php"
+  rental_rate_week: $150
+
+- name: Tour II (Base)
+  brand: TerraTrike
+  img: http://www.terratrike.com/images/trikes/tour/tourPanel1Lg.jpg
+  msrp: $1699
+  wheels: 20"
+  steering: Direct
+  url: "http://www.terratrike.com/tour.php"
+  rental_rate_week: $150
+
+
+## KMX
+
+- name: K3
+  brand: KMX
+  img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617623/iconpic/KMX-K-3-Icon1.jpg
+  msrp: $499
+  wheels: 12"x16"
+  steering: Direct
+  url: http://www.kmxus.com/k3.html
+  rental_rate_week: $50
+
+- name: Kompact R
+  brand: KMX
+  img: http://www.utahtrikes.com/uploads/utupgradesproducts/11618269/iconpic/KOMPACTRICON1.jpg
+  msrp: $799
+  wheels: 16"
+  steering: Direct
+  url: http://www.utahtrikes.com/PROD-11618269.html
+  rental_rate_week: $50
+
+- name: Venom
+  brand: KMX
+  img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617626/iconpic/venomicon1.jpg
+  msrp: $1999
+  wheels: 20"x26"
+  steering: Direct
+  url: http://www.kmxus.com/venom.html
+  rental_rate_week: $200
+
+- name: Typhoon
+  brand: KMX
+  img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617629/iconpic/TYPHOON-Icon1.jpg
+  msrp: $1099
+  wheels: 20"
+  steering: Direct
+  url: http://www.kmxus.com/typhoon.html
+  rental_rate_week: $75
+
+- name: Cobora
+  brand: KMX
+  img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617627/iconpic/cobraicon1.jpg
+  msrp: $1599
+  wheels: 20"x24"
+  steering: Direct
+  url: http://www.kmxus.com/cobra.html
+  rental_rate_week: $150
