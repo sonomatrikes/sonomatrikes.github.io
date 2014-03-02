@@ -27,8 +27,8 @@ title: Sonoma Trikes - Our Trikes
     <tbody>
     {% for trike in site.data.trikes %}
       <tr>
-        <td><img class="img-rounded" width="160" src="{{trike.img}}">
-        <td>{{trike.name}}
+        <td><a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
+        <td><a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
         <td>{{trike.brand}}
         <td>{{trike.msrp}}
         <td>{{trike.wheels}}

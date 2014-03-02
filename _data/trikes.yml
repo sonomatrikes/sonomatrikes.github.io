@@ -2,8 +2,8 @@
 
 - name: Adventure FS
   brand: ICE
-  img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20RS.jpg
-  msrp: $3543.88
+  img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20FS.jpg
+  msrp: $4201.24
   wheels: 20"
   steering: Indirect
   folding: True
@@ -13,8 +13,8 @@
 
 - name: Sprint FS
   brand: ICE
-  img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%2026.jpg
-  msrp: $3022.16
+  img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%20FS.jpg
+  msrp: $4188.36
   wheels: 20"x26"
   steering: Indirect
   folding: True
