@@ -18,6 +18,8 @@ title: Sonoma Trikes - Our Trikes
         <th data-sorter="currency" data-string="min">MSRP
         <th>Wheels
         <th>Steering
+        <th>Folding
+        <th>Suspension
         <th>Rental Rate
       </tr>
     </thead>
@@ -30,6 +32,11 @@ title: Sonoma Trikes - Our Trikes
         <td>{{trike.msrp}}
         <td>{{trike.wheels}}
         <td>{{trike.steering}}
+        <td>
+          {% if trike.folding %}
+          <i class="text-success fa fa-check"></i> 
+          {% endif %}
+        <td>{{trike.suspension}}
         <td>
           {% if trike.rental_rate_week %}
           {{trike.rental_rate_week}}/week

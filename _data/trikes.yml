@@ -6,6 +6,8 @@
   msrp: $3543.88
   wheels: 20"
   steering: Indirect
+  folding: True
+  suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   rental_rate_week: $350
 
@@ -15,6 +17,8 @@
   msrp: $3022.16
   wheels: 20"x26"
   steering: Indirect
+  folding: True
+  suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   rental_rate_week: $350
 
