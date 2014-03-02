@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.13.3/css/theme.bootstrap.css">
+    <script type="text/javascript">
+      (function(d) {
+        var config = {
+          kitId: 'qiq7dve',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
     <style type="text/css">
     body { padding-top: 70px; }
     #map-canvas {
@@ -16,6 +25,9 @@
       }
     p {
       max-width: 85rem;
+    }
+    h1, h2, h3 {
+      font-family: "coquette", 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     </style>
     <!--[if lt IE 9]>
