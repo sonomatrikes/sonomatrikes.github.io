@@ -14,13 +14,14 @@ title: Sonoma Trikes - Our Trikes
       <tr>
         <th data-sorter="false">
         <th>Name
-        <th>Manufacturer
+        <th>Brand
         <th data-sorter="currency" data-string="min">MSRP
         <th>Wheels
         <th>Steering
         <th>Folding
         <th>Suspension
         <th>Rental Rate
+        <th data-sorter="false">
       </tr>
     </thead>
     <tbody>
@@ -41,6 +42,12 @@ title: Sonoma Trikes - Our Trikes
           {% if trike.rental_rate_week %}
           {{trike.rental_rate_week}}/week
           {% endif %}
+        <td>
+            <a class="btn btn-sm btn-block btn-primary" href="mailto:{{site.mailto}}?subject=Demo Ride: {{trike.name | uri_escape}}">Schedule a Demo Ride</a>
+            {% if trike.rental_rate_week %}
+            <a class="btn btn-sm btn-block btn-default" href="mailto:{{site.mailto}}?subject=Rent: {{trike.name | uri_escape}}">Rent a {{trike.name}}</a>
+            {% endif %}
+        </td>
       </tr>
     {% endfor %}
     </tbody>
