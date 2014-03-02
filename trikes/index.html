@@ -29,7 +29,19 @@ title: Sonoma Trikes - Our Trikes
       <tr>
         <td><a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
         <td><a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
-        <td>{{trike.brand}}
+        <td>
+        {% for manufacture in site.data.manufacturers %}
+          {% if manufacture.name == trike.brand %}
+            <a href="{{manufacture.url}}">
+            {% if manufacture.icon %}
+            <img width="16" height="16" src="{{manufacture.icon}}">
+            {% else %}
+            <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+            {% endif %}
+            {{manufacture.name}}
+            </a>
+          {% endif %}
+        {% endfor %}
         <td>{{trike.msrp}}
         <td>{{trike.wheels}}
         <td>{{trike.steering}}
