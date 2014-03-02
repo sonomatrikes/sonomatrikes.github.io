@@ -28,8 +28,21 @@ title: Sonoma Trikes
   </div>
   <div class="col-md-6">
     <section>
+      <h2>Get your own Trike!</h2>
+      <p>Appointments are available, anytime from 7am-7pm, 7 days a week. To arrange a visit please call or text <a href="tel:+1-707-559-8101">(707) 559-8101</a> or email us at <a href="mailto:sonomatrikes@gmail.com">sonomatrikes@gmail.com</a>
+      </p>
+      <div id="map-canvas"></div>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <a href="https://maps.google.com/maps?q=1364+North+McDowell+Blvd+%235+Petaluma,+CA+94954&hnear=1364+N+McDowell+Blvd+%235,+Petaluma,+California+94954&gl=us&t=h&z=16&iwloc=A">
+        <span itemprop="streetAddress">1364 North McDowell Blvd #5</span><br />
+        <span itemprop="addressLocality">Petaluma</span>,
+        <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94954</span>
+        </a>
+      </p>
+    </section>
+    <section>
       <h2>Our Manufacturers</h2>
-      <dl class="manufacturers">
+      <dl class="manufacturers dl-horizontal">
       {% for manufacture in site.data.manufacturers %}
         <dt>
           {% if manufacture.icon %}
@@ -45,16 +58,6 @@ title: Sonoma Trikes
       {% endfor %}
       </dl>
       <a href="/trikes" class="btn btn-primary">Find a Trike to Ride!</a>
-    </section>
-    <section>
-      <h2>Get your own Trike!</h2>
-      <div id="map-canvas"></div>
-      <p>Appointments are available, at the times shown below, and weekends are some what flexible:<br />
-            Mon - Fri: 7:00 am - 7:00 pm<br />
-            Sat - Sun: 10:00 am - 4:00 pm<br />
-
-        To arrange a visit please call or text (707) 559-8101
-        </p>
     </section>
   </div>
 </div>
