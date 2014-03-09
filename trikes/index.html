@@ -14,12 +14,7 @@ title: Sonoma Trikes - Our Trikes
       <tr>
         <th data-sorter="false">
         <th>Name
-        <th>Brand
         <th data-sorter="currency" data-string="min">MSRP
-        <th>Wheels
-        <th>Steering
-        <th>Folding
-        <th>Suspension
         <th>Rental Rate
         <th data-sorter="false">
       </tr>
@@ -28,28 +23,25 @@ title: Sonoma Trikes - Our Trikes
     {% for trike in site.data.trikes %}
       <tr>
         <td><a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
-        <td><a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
         <td>
-        {% for manufacture in site.data.manufacturers %}
-          {% if manufacture.name == trike.brand %}
-            <a href="{{manufacture.url}}">
-            {% if manufacture.icon %}
-            <img width="16" height="16" src="{{manufacture.icon}}">
-            {% else %}
-            <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+          <span class="manufacture">
+          {% for manufacture in site.data.manufacturers %}
+            {% if manufacture.name == trike.brand %}
+              <a href="{{manufacture.url}}">
+              {% if manufacture.icon %}
+              <img width="16" height="16" src="{{manufacture.icon}}">
+              {% else %}
+              <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+              {% endif %}
+              {{manufacture.name}}
+              </a>
             {% endif %}
-            {{manufacture.name}}
-            </a>
-          {% endif %}
-        {% endfor %}
+          {% endfor %}
+          </span>
+          | 
+          <a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
+          <p>{{trike.description}}</p>
         <td>{{trike.msrp}}
-        <td>{{trike.wheels}}
-        <td>{{trike.steering}}
-        <td>
-          {% if trike.folding %}
-          <i class="text-success fa fa-check"></i> 
-          {% endif %}
-        <td>{{trike.suspension}}
         <td>
           {% if trike.rental_rate_week %}
           {{trike.rental_rate_week}}/week

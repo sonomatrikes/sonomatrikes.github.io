@@ -10,6 +10,15 @@
   suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   rental_rate_week: $350
+  description: > 
+    The ICE Adventure folding recumbent trike is ideal for exploring the
+    trails or loading up for your next big adventure. With a higher riding
+    position and more upright seating position the Adventure gives excellent
+    accessibility and a great view of the trail ahead. All Adventure models
+    are available as an HD (Heavy Duty) option, giving a sturdier frame, wider
+    seat and increased cockpit space. The HD is ideal for the larger or taller
+    rider.
+
 
 - name: Sprint FS
   brand: ICE
@@ -21,6 +30,12 @@
   suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   rental_rate_week: $350
+  description: > 
+    The ICE Sprint folding trike is the ultimate fusion of sporting performance
+    and long-distance comfort. With a mid-height seating position and ICE’s
+    renowned handling the Sprint is a trike which has to be explored. All Sprint
+    models are available with an X-type upgrade, giving race-specification
+    components.
 
 - name: VTX+
   brand: ICE
@@ -29,6 +44,10 @@
   wheels: 20"x26"
   steering: Indirect
   url: http://www.icetrikes.co/explore-our-trikes/vtx
+  description: > 
+    The ICE VTX+ is the ultimate long distance, high performance racing trike. It
+    combines style and speed to create what is one of the world’s most
+    desirable racing trikes.
 
 
 ## Catrike
@@ -41,6 +60,12 @@
   wheels: 20"x26"
   url: "http://www.catrike.com/#!700/c1dnt"
   rental_rate_week: $250
+  description: >
+    The 700 is designed as a no compromises speed machine. It is the longest,
+    lowest, narrowest and lightest trike from Catrike.
+    For 2013 20" wheels replaced the 16", and the rider position and
+    component selection was further optimized.
+
 
 - name: Pocket
   brand: Catrike
@@ -59,6 +84,11 @@
   wheels: 20"
   url: "http://www.catrike.com/#!villager/cmei"
   rental_rate_week: $250
+  description: >
+    The Villager is a high quality, adjustable user-friendly Catrike, with an
+    extra wide cross member and high seat it is easy to get on and off yet very
+    stable.  With the highest seat height of the line-up, getting in and out is
+    even easier.
 
 - name: Expedition
   brand: Catrike
@@ -68,6 +98,9 @@
   steering: Direct
   url: "http://www.catrike.com/#!expedition/c2465"
   rental_rate_week: $250
+  description: >
+    The Expedition is a long wheel base Sport-Luxury Catrike. Capable of
+    handling heavy loads for long distance touring and a fast performance ride.
 
 
 ## Trisled
@@ -80,6 +113,18 @@
   wheels: 20"
   url: "http://www.trisled.com.au/rotovelo.asp"
   rental_rate_week: $600
+  description: >
+    The Rotovelo is the first velomobile to ever be constructed from roto-molded
+    HDPE (think kayak plastic).  Underneath is a proven frame made from 4130
+    aircraft spec. chromoly that is similar to their Gizmo touring trike in
+    geometry and handling, with a 27spd drivetrain and mechanical disc brakes.
+    Velomobiles offer the rider protection from their environment, more visibility
+    to other drivers, and can maintain a higher average speed due to clean
+    aerodynamics.  Until now the shells were hand-laid composite materials, and
+    thus a little delicate for daily use, but that is no longer a concern with the
+    Rotovelo.  There is an onboard lighting system, mirror, a removable top hatch,
+    built-in luggage space, and optional full coverage top if needed to make this
+    a bike you can ride year round.
 
 - name: Gizmo
   brand: Trisled
@@ -89,7 +134,14 @@
   steering: Direct
   url: "http://www.trisled.com.au/gizmo.asp"
   rental_rate_week: $350
-
+  description: >
+    Originally released in 2002, the Gizmo distilled what Trisled had learned in
+    trike design from the previous decade into a sport trike that still holds
+    its own in the tadpole trike market.What differentiates the Gizmo is the
+    lightweight separable steel frame, and incredibly comfortable carbon
+    hardshell seat with a built-in head rest. The Gizmo can serve as a sporty
+    daily commuter, or be packed up and taken to your favorite cycling
+    destination for an extended touring expedition.
 
 
 
@@ -103,6 +155,11 @@
   steering: Direct
   url: "http://www.terratrike.com/rover.php"
   rental_rate_week: $125
+  description: > 
+    The ROVER offerings are being updated for 2014, with the Auto 2, and Auto
+    NuVinci that will start shipping around spring time. The Rover can be
+    converted to a tandem, with and optional Independent Pedaling System.
+
 
 - name: Rover Tandem
   brand: TerraTrike
@@ -121,6 +178,12 @@
   steering: Direct
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
+  description: >
+    The Rambler has a more vertically compliant chromoly steel frame then the
+    Rover, offering a more comfortable ride.  It is also 5-9lbs lighter then the
+    Rover 8, making loading into a vehicle or motoring up a hill a little easier.
+    There is a whole range of upgrades and gearing options if you decide you would
+    like to customize your Rambler down the road
 
 - name: Tour II (Base)
   brand: TerraTrike
@@ -130,7 +193,12 @@
   steering: Direct
   url: "http://www.terratrike.com/tour.php"
   rental_rate_week: $150
-
+  description: >
+    The Tour II is the culmination of 15 years of refinement, and has a slight
+    wider stance and lower seating position then the Rover or Rambler. The
+    steering is also an indirect-linkage style which some riders prefer, and the
+    grip orientation is vertical with forward and aft handlebar adjustments to
+    optimize the cockpit and controls to your particular taste.
 
 ## KMX
 
