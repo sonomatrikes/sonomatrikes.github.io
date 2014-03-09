@@ -9,6 +9,7 @@
   folding: True
   suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/adventure
+  spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-6)G-9-9-3
   rental_rate_week: $350
   description: > 
     The ICE Adventure folding recumbent trike is ideal for exploring the
@@ -32,6 +33,7 @@
   folding: True
   suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/sprint
+  spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-12)W-9-9-3
   rental_rate_week: $350
   description: > 
     The ICE Sprint folding trike is the ultimate fusion of sporting performance
@@ -50,6 +52,7 @@
   wheels: 20"x26"
   steering: Indirect
   url: http://www.icetrikes.co/explore-our-trikes/vtx
+  spec_url: http://www.icetrikes.co/explore-our-trikes/vtx/configuration/(11-45)4-9-9-3
   description: > 
     The ICE VTX+ is the ultimate long distance, high performance racing trike. It
     combines style and speed to create what is one of the world’s most
