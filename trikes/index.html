@@ -22,7 +22,9 @@ title: Sonoma Trikes - Our Trikes
     <tbody>
     {% for trike in site.data.trikes %}
       <tr>
-        <td><a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
+        <td>
+          <a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
+          {% include compare.html params=trike %}
         <td>
           <span class="manufacture">
           {% for manufacture in site.data.manufacturers %}

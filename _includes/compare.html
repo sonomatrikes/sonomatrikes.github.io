@@ -1,0 +1,14 @@
+<dl class="compare dl-horizontal">
+  <dt>Comfort</dt>
+  <dd>
+    {% for i in (1..trike.compare.comfort) %}
+    <i class="fa fa-cloud fa-fw"></i>
+    {% endfor %}
+  </dd>
+  <dt>Speed</dt>
+  <dd>
+    {% for i in (1..trike.compare.speed) %}
+    <i class="fa fa-rocket fa-fw"></i>
+    {% endfor %}
+  </dd>
+</dl>

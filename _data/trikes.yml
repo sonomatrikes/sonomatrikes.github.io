@@ -18,6 +18,9 @@
     are available as an HD (Heavy Duty) option, giving a sturdier frame, wider
     seat and increased cockpit space. The HD is ideal for the larger or taller
     rider.
+  compare:
+    comfort: 5
+    speed: 3
 
 
 - name: Sprint FS
@@ -36,6 +39,9 @@
     renowned handling the Sprint is a trike which has to be explored. All Sprint
     models are available with an X-type upgrade, giving race-specification
     components.
+  compare:
+    comfort: 4
+    speed: 4
 
 - name: VTX+
   brand: ICE
@@ -48,7 +54,9 @@
     The ICE VTX+ is the ultimate long distance, high performance racing trike. It
     combines style and speed to create what is one of the world’s most
     desirable racing trikes.
-
+  compare:
+    comfort: 4
+    speed: 5
 
 ## Catrike
 
@@ -65,6 +73,9 @@
     lowest, narrowest and lightest trike from Catrike.
     For 2013 20" wheels replaced the 16", and the rider position and
     component selection was further optimized.
+  compare:
+    comfort: 2
+    speed: 5
 
 
 - name: Pocket
@@ -75,6 +86,9 @@
   wheels: 20"
   url: "http://www.catrike.com/#!pocket/c1ap4"
   rental_rate_week: $250
+  compare:
+    comfort: 3
+    speed: 3
 
 - name: Villager
   brand: Catrike
@@ -89,6 +103,9 @@
     extra wide cross member and high seat it is easy to get on and off yet very
     stable.  With the highest seat height of the line-up, getting in and out is
     even easier.
+  compare:
+    comfort: 3
+    speed: 3
 
 - name: Expedition
   brand: Catrike
@@ -101,6 +118,9 @@
   description: >
     The Expedition is a long wheel base Sport-Luxury Catrike. Capable of
     handling heavy loads for long distance touring and a fast performance ride.
+  compare:
+    comfort: 3
+    speed: 3
 
 
 ## Trisled
@@ -125,6 +145,9 @@
     Rotovelo.  There is an onboard lighting system, mirror, a removable top hatch,
     built-in luggage space, and optional full coverage top if needed to make this
     a bike you can ride year round.
+  compare:
+    comfort: 4
+    speed: 4
 
 - name: Gizmo
   brand: Trisled
@@ -142,6 +165,9 @@
     hardshell seat with a built-in head rest. The Gizmo can serve as a sporty
     daily commuter, or be packed up and taken to your favorite cycling
     destination for an extended touring expedition.
+  compare:
+    comfort: 3
+    speed: 4
 
 
 
@@ -159,6 +185,9 @@
     The ROVER offerings are being updated for 2014, with the Auto 2, and Auto
     NuVinci that will start shipping around spring time. The Rover can be
     converted to a tandem, with and optional Independent Pedaling System.
+  compare:
+    comfort: 2
+    speed: 2
 
 
 - name: Rover Tandem
@@ -169,6 +198,9 @@
   steering: Direct
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
+  compare:
+    comfort: 2
+    speed: 2
 
 - name: Rambler GT
   brand: TerraTrike
@@ -184,6 +216,9 @@
     Rover 8, making loading into a vehicle or motoring up a hill a little easier.
     There is a whole range of upgrades and gearing options if you decide you would
     like to customize your Rambler down the road
+  compare:
+    comfort: 3
+    speed: 3
 
 - name: Tour II (Base)
   brand: TerraTrike
@@ -199,6 +234,9 @@
     steering is also an indirect-linkage style which some riders prefer, and the
     grip orientation is vertical with forward and aft handlebar adjustments to
     optimize the cockpit and controls to your particular taste.
+  compare:
+    comfort: 3
+    speed: 3
 
 ## KMX
 
@@ -210,6 +248,9 @@
   steering: Direct
   url: http://www.kmxus.com/k3.html
   rental_rate_week: $50
+  compare:
+    comfort: 2
+    speed: 2
 
 - name: Kompact R
   brand: KMX
@@ -219,6 +260,9 @@
   steering: Direct
   url: http://www.utahtrikes.com/PROD-11618269.html
   rental_rate_week: $50
+  compare:
+    comfort: 2
+    speed: 3
 
 - name: Venom
   brand: KMX
@@ -228,6 +272,9 @@
   steering: Direct
   url: http://www.kmxus.com/venom.html
   rental_rate_week: $200
+  compare:
+    comfort: 3
+    speed: 4
 
 - name: Typhoon
   brand: KMX
@@ -237,6 +284,9 @@
   steering: Direct
   url: http://www.kmxus.com/typhoon.html
   rental_rate_week: $125
+  compare:
+    comfort: 3
+    speed: 2
 
 - name: Cobora
   brand: KMX
@@ -246,3 +296,6 @@
   steering: Direct
   url: http://www.kmxus.com/cobra.html
   rental_rate_week: $150
+  compare:
+    comfort: 3
+    speed: 3
