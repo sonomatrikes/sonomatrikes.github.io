@@ -239,7 +239,19 @@
     optimize the cockpit and controls to your particular taste.
   compare:
     comfort: 3
-    speed: 3
+    speed: 2
+
+- name: Sportster (Base)
+  brand: TerraTrike
+  img: http://terratrike.com/images/trikes/sportster/sportsterPanel2Lg.jpg
+  msrp: $2299
+  wheels: 20"
+  steering: Direct
+  url: "http://www.terratrike.com/sportster.php"
+  rental_rate_week: $250
+  compare:
+    comfort: 3
+    speed: 4
 
 ## KMX
 
