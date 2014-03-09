@@ -51,6 +51,9 @@ title: Sonoma Trikes - Our Trikes
             {% if trike.rental_rate_week %}
             <a class="btn btn-sm btn-block btn-default" href="mailto:{{site.mailto}}?subject=Rent: {{trike.name | uri_escape}}">Rent a {{trike.name}}</a>
             {% endif %}
+            <button type="button" class="btn btn-sm btn-block btn-default btn-popover" data-container="body" data-toggle="popover" data-html="true" data-placement="left" data-title="{{trike.name}}" data-content="{% include trike_details.html params=trike %}">
+             Show Details
+            </button>
         </td>
       </tr>
     {% endfor %}

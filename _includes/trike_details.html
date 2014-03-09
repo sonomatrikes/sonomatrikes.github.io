@@ -1,0 +1,16 @@
+  <dl>
+  	<dt>Wheels</dt>
+  	<dd>{{trike.wheels | xml_escape}}</dd>
+  	<dt>Steering</dt>
+  	<dd>{{trike.steering}}</dd>
+  	<dt>Folding</dt>
+  	<dd>
+  		{%if trike.folding %}
+  		<i class='fa fa-check-square-o text-success'></i>
+  		{% else %}
+  		<i class='fa fa-square-o text-danger'></i>
+  		{% endif %}
+  	</dd>
+  	<dt>Suspension</dt>
+  	<dd>{{trike.suspension}}</dd>
+  </dl>
