@@ -42,7 +42,7 @@
     models are available with an X-type upgrade, giving race-specification
     components.
   compare:
-    comfort: 4
+    comfort: 5
     speed: 4
 
 - name: VTX+
@@ -107,7 +107,7 @@
     stable.  With the highest seat height of the line-up, getting in and out is
     even easier.
   compare:
-    comfort: 3
+    comfort: 4
     speed: 3
 
 - name: Expedition
@@ -123,7 +123,7 @@
     handling heavy loads for long distance touring and a fast performance ride.
   compare:
     comfort: 3
-    speed: 3
+    speed: 4
 
 
 ## Trisled
@@ -169,7 +169,7 @@
     daily commuter, or be packed up and taken to your favorite cycling
     destination for an extended touring expedition.
   compare:
-    comfort: 3
+    comfort: 4
     speed: 4
 
 
@@ -189,7 +189,7 @@
     NuVinci that will start shipping around spring time. The Rover can be
     converted to a tandem, with and optional Independent Pedaling System.
   compare:
-    comfort: 2
+    comfort: 4
     speed: 2
 
 
@@ -202,7 +202,7 @@
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
   compare:
-    comfort: 2
+    comfort: 4
     speed: 2
 
 - name: Rambler GT
@@ -220,7 +220,7 @@
     There is a whole range of upgrades and gearing options if you decide you would
     like to customize your Rambler down the road
   compare:
-    comfort: 3
+    comfort: 4
     speed: 3
 
 - name: Tour II (Base)
@@ -236,10 +236,11 @@
     wider stance and lower seating position then the Rover or Rambler. The
     steering is also an indirect-linkage style which some riders prefer, and the
     grip orientation is vertical with forward and aft handlebar adjustments to
-    optimize the cockpit and controls to your particular taste.
+    optimize the cockpit and controls to your particular taste. Ours is configured
+    with the 26" wheel extension for slightly higher gearing and smoother ride.
   compare:
-    comfort: 3
-    speed: 2
+    comfort: 4
+    speed: 4
 
 - name: Sportster (Base)
   brand: TerraTrike
@@ -250,7 +251,7 @@
   url: "http://www.terratrike.com/sportster.php"
   rental_rate_week: $250
   compare:
-    comfort: 3
+    comfort: 4
     speed: 4
 
 ## KMX
@@ -264,7 +265,7 @@
   url: http://www.kmxus.com/k3.html
   rental_rate_week: $50
   compare:
-    comfort: 2
+    comfort: 4
     speed: 2
 
 - name: Kompact R
@@ -276,7 +277,7 @@
   url: http://www.utahtrikes.com/PROD-11618269.html
   rental_rate_week: $50
   compare:
-    comfort: 2
+    comfort: 4
     speed: 3
 
 - name: Venom
@@ -288,7 +289,7 @@
   url: http://www.kmxus.com/venom.html
   rental_rate_week: $200
   compare:
-    comfort: 3
+    comfort: 4
     speed: 4
 
 - name: Typhoon
@@ -300,10 +301,10 @@
   url: http://www.kmxus.com/typhoon.html
   rental_rate_week: $125
   compare:
-    comfort: 3
-    speed: 2
+    comfort: 4
+    speed: 3
 
-- name: Cobora
+- name: Cobra
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617627/iconpic/cobraicon1.jpg
   msrp: $1599
@@ -312,5 +313,5 @@
   url: http://www.kmxus.com/cobra.html
   rental_rate_week: $150
   compare:
-    comfort: 3
+    comfort: 4
     speed: 3
