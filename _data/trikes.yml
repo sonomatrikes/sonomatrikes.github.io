@@ -89,6 +89,9 @@
   wheels: 20"
   url: "http://www.catrike.com/#!pocket/c1ap4"
   rental_rate_week: $250
+   description: >
+    A Small Space Frame Catrike with big features. It has a narrow track, 
+    is quick and lightweight.  Perfect for smaller riders.
   compare:
     comfort: 3
     speed: 3
@@ -196,11 +199,16 @@
 - name: Rover Tandem
   brand: TerraTrike
   img: http://cdn3.volusion.com/cwfyc.waupt/v/vspfiles/photos/Rover-Tandem-2.jpg
-  msrp: $2447.00
+  msrp: $2098
   wheels: 20"
   steering: Direct
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
+  description: >
+    The Rover also converts to a tandem. The tandem attachment quickly changes
+    your standard Rover into a Tricycle-built-for-two! Simply disconnect the 
+    rear section of your trike and add the new tandem attachment, a new 
+    included front chain and you are ready to ride! 
   compare:
     comfort: 4
     speed: 2
@@ -250,6 +258,24 @@
   steering: Direct
   url: "http://www.terratrike.com/sportster.php"
   rental_rate_week: $250
+  description: >
+    Want to go fast? Really fast? Then the Sportster is your machine. The 
+    undisputed Ferrari of the Terratrike lineup is the culmination of 16
+    years experience in trike design. If you are a trike enthusiast, you 
+    owe it to yourself to take a test ride on one of these. It accelerates 
+    well, climbs fast, and maintains high speeds with ease. With its “no 
+    compromise approach” to build quality, you can be confident you’re 
+    riding one of the best. The Sportster has a strong and light weight 
+    6000 series aluminum frame that shaves valuable weight off your ride.
+    It comes stock with a 26” rear wheel for higher gearing, and is 
+    available in four component levels to suit nearly any budget. If 
+    your goal is simply to move as fast as possible under your own 
+    power, then look no further than the Sportster! As if it 
+    couldn’t get any better, the Sportster is completely Made in 
+    America and comes in your choice of 3 different colors - helping 
+    make this machine the the most desired trike in the TT lineup.
+
+- See more at: http://terratrike.com/sportster.php#sthash.YT1prRWs.dpuf
   compare:
     comfort: 4
     speed: 4
@@ -264,6 +290,15 @@
   steering: Direct
   url: http://www.kmxus.com/k3.html
   rental_rate_week: $50
+  description: >
+    Despite its small size and affordable price, the KMX K-3 has many 
+    features that adults will love. The unique 2-speed shifting system 
+    makes adjustment minimal and eliminates maintenance. The integrated 
+    bash guard on the front crank keeps little body parts from the chain. 
+    Adjustable hand/mud guards protect the rider's hands as your little 
+    one maneuvers on the dirt trails or your neighborhood streets.  Our 
+    daugther loves hers and rides like a champ.  This awesome KMX model 
+    means no more bad childhood memories of taking a needless wipeout.
   compare:
     comfort: 4
     speed: 2
@@ -276,6 +311,17 @@
   steering: Direct
   url: http://www.utahtrikes.com/PROD-11618269.html
   rental_rate_week: $50
+  description: >
+    Great for smaller people and kids of all abilities due to low center 
+    of gravity and high stability. The Kompact has 11.5cm of Sliding 
+    Front Boom for easy rider height adjustment. The Kompact R is a great 
+    trike for Children and small adults under 5-foot tall. For taller 
+    adults we recommend the KMX Typhoon. Other Features include a Self 
+    adjusting chain tensioner, Direct Steer for responsive handling, 
+    KMX Hardshell Bucket Seat featuring multiple angle seat position,
+    15cm of fast and easy sliding adjustment, Oversized Super Glide 
+    Pulley for smooth chain management. The Kompact R is Very robust 
+    and low maintenance.
   compare:
     comfort: 4
     speed: 3
@@ -288,6 +334,18 @@
   steering: Direct
   url: http://www.kmxus.com/venom.html
   rental_rate_week: $200
+  description: >
+    The KMX Venom represents a new level of performance. The Venom frame
+    is made entirely of custom aluminum extrusion for a light-weight and 
+    incredibly stiff frame. With a longer wheelbase and 26-inch rear tire 
+    the Venom is made to go fast and it does not disappoint. If you are 
+    looking for a fast performance-oriented trike under $2000 then look 
+    no further. It can handle your daily commute and weekend rides while
+    keeping a fast pace and riding in comfort. The lightest and fastest 
+    of the KMX range, it’s a demon for the experienced rider or racer 
+    over 18. A light-weight wheel set with narrow, high-pressure tyres 
+    and road-bike-specific componentry reward riders with superior 
+    road-touring performance. Own it, and the road is yours.
   compare:
     comfort: 4
     speed: 4
@@ -300,6 +358,13 @@
   steering: Direct
   url: http://www.kmxus.com/typhoon.html
   rental_rate_week: $125
+  description: >
+    The Typhoon is a fantastic trike for adults and teens alike. With
+    he Schwalbe Big Apple tires and comfy bucket seat it will give you
+    a smooth ride while you zip on the road. The Typhoon is equipped 
+    with 8-speed derailleur gearing and 3-wheel disc brakes. The Typhoon 
+    is our top level KMX Adult Sports Trike providing quality and 
+    performance at an unbeatable price.  Easily the most fun for the $!
   compare:
     comfort: 4
     speed: 3
@@ -312,6 +377,12 @@
   steering: Direct
   url: http://www.kmxus.com/cobra.html
   rental_rate_week: $150
+  description: >
+    The Cobra is known as the Mountain Triker. For men and women who 
+    crave exhilarating off-road riding on any terrain. This 
+    jack-of-all-trades KMX has a robust design with 24 gears, large 
+    spoked wheels and added ground clearance making it fast on the 
+    road and unstoppable off-road. Make no mistake, the Cobra is dangerously fun. 
   compare:
     comfort: 4
     speed: 3
