@@ -12,13 +12,21 @@
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-6)G-9-9-3
   rental_rate_week: $350
   description: > 
-    The ICE Adventure folding recumbent trike is ideal for exploring the
+    The ICE Adventure folding recumbent trike line is ideal for exploring the
     trails or loading up for your next big adventure. With a higher riding
     position and more upright seating position the Adventure gives excellent
     accessibility and a great view of the trail ahead. All Adventure models
     are available as an HD (Heavy Duty) option, giving a sturdier frame, wider
     seat and increased cockpit space. The HD is ideal for the larger or taller
-    rider.
+    rider. There are several models to choose from depending on your particular
+    needs or desired comfort level. The base Adventure comes w/o any susenpion,
+    the RS with rear susp., FS with full susp. There is FS+ model with upgraded
+    componentry, and the Heavy Duty HD which is 2" wider and 2" longer with a
+    2" wider seat and cockpit available on all models.  The latest variation
+    is the Adventure 26, a rigid frame with a rear 26" wheel for those that 
+    want slightly taller gearing for more road use.  All Adventures have angle
+    adjustable seat, adjustable boom length, and available seat brackets for
+    taller or shorter riders.
   compare:
     comfort: 5
     speed: 3
@@ -36,11 +44,14 @@
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-12)W-9-9-3
   rental_rate_week: $350
   description: > 
-    The ICE Sprint folding trike is the ultimate fusion of sporting performance
+    The ICE Sprint folding trike line is the ultimate fusion of sporting performance
     and long-distance comfort. With a mid-height seating position and ICE’s
     renowned handling the Sprint is a trike which has to be explored. All Sprint
     models are available with an X-type upgrade, giving race-specification
-    components.
+    components. The base Sprint 26 comes w/o any susenpion and a 26", the RS with
+    rear susp., and the FS with full susp. There are also 26X, RSX and FSX model with
+    upgraded componentry. All Sprints have angle adjustable seat and adjustable boom 
+    length, hardshell seat option, and seat brackets for taller or shorter riders.
   compare:
     comfort: 5
     speed: 4
@@ -55,8 +66,12 @@
   spec_url: http://www.icetrikes.co/explore-our-trikes/vtx/configuration/(11-45)4-9-9-3
   description: > 
     The ICE VTX+ is the ultimate long distance, high performance racing trike. It
-    combines style and speed to create what is one of the world’s most
-    desirable racing trikes.
+    combines style and speed to create what is one of the world’s most desirable
+    racing trikes. Super charged with technical expertise and specialist knowledge,
+    the ICE VTX is a brand new breed of recumbent trike. ICE VTX and VTX+ trikes
+    are built on an optimised ICE frame featuring our No Brake Steer and Rider 
+    Positioning System.  The VTX and VTX+ have angle adjustable seats, and adjustable
+    booms for different leg lengths.
   compare:
     comfort: 4
     speed: 5
@@ -73,9 +88,11 @@
   rental_rate_week: $250
   description: >
     The 700 is designed as a no compromises speed machine. It is the longest,
-    lowest, narrowest and lightest trike from Catrike.
-    For 2013 20" wheels replaced the 16", and the rider position and
-    component selection was further optimized.
+    lowest, narrowest and lightest trike from Catrike. For 2013 20" wheels
+    replaced the 16", and the rider position and component selection was
+    further optimized.  The 700 had a fixed 25deg. seating position, adjustable
+    boom for different leg lengths, and includes a rear fender, neckrest,
+    mirror and padded wrist rests.
   compare:
     comfort: 2
     speed: 5
@@ -91,7 +108,9 @@
   rental_rate_week: $250
    description: >
     A Small Space Frame Catrike with big features. It has a narrow track, 
-    is quick and lightweight.  Perfect for smaller riders.
+    is quick and lightweight.  Perfect for smaller riders. The Pocket had a 
+    fixed 41deg. seating position, adjustable boom for different leg lengths,
+    and includes a rear fender, mirror and padded wrist rests.
   compare:
     comfort: 3
     speed: 3
@@ -106,9 +125,10 @@
   rental_rate_week: $250
   description: >
     The Villager is a high quality, adjustable user-friendly Catrike, with an
-    extra wide cross member and high seat it is easy to get on and off yet very
+    extra wide cross member and high seat at 12.5" it is easy to get on and off yet very
     stable.  With the highest seat height of the line-up, getting in and out is
-    even easier.
+    even easier. The Villager had an angle adjustable seat 41-51deg., adjustable
+    boom for different leg lengths, and includes a mirror and padded wrist rests.
   compare:
     comfort: 4
     speed: 3
@@ -124,6 +144,10 @@
   description: >
     The Expedition is a long wheel base Sport-Luxury Catrike. Capable of
     handling heavy loads for long distance touring and a fast performance ride.
+    The Expedition had a fixed 37deg. seating position, adjustable boom for 
+    different leg lengths, and includes a rear fender, neckrest, mirror and
+    padded wrist rests.  This is Catrikes most popular model with a great
+    balance of performance and comfort.
   compare:
     comfort: 3
     speed: 4
@@ -191,6 +215,9 @@
     The ROVER offerings are being updated for 2014, with the Auto 2, and Auto
     NuVinci that will start shipping around spring time. The Rover can be
     converted to a tandem, with and optional Independent Pedaling System.
+    The Terratrike Rover is highly adjustable with extandable booms, sliding
+    seats with 11.5" of range, angle adjustable seat from 35-70deg., a 16.5"
+    seat height, and a very tight turning radius of under 10' diameter.
   compare:
     comfort: 4
     speed: 2
@@ -226,7 +253,7 @@
     Rover, offering a more comfortable ride.  It is also 5-9lbs lighter then the
     Rover 8, making loading into a vehicle or motoring up a hill a little easier.
     There is a whole range of upgrades and gearing options if you decide you would
-    like to customize your Rambler down the road
+    like to customize your Rambler down the road.
   compare:
     comfort: 4
     speed: 3
