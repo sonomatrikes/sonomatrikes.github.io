@@ -3,6 +3,7 @@ body { padding-top: 70px; }
     min-height: 400px; 
     margin: 0px;
     padding: 0px
+    border-radius: 6px;
   }
 p {
   max-width: 85rem;
