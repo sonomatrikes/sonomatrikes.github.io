@@ -54,6 +54,9 @@ title: Sonoma Trikes - Our Trikes
           {{trike.rental_rate_week}}/week
           {% endif %}
         <td>
+            {% if trike.order_url %}
+            <a class="btn btn-sm btn-block btn-success" href="{{trike.order_url}}"><strong>Order Now</strong></a>
+            {% endif %}
             <a class="btn btn-sm btn-block btn-primary" href="mailto:{{site.mailto}}?subject=Demo Ride: {{trike.name | uri_escape}}">Schedule a Demo Ride</a>
             {% if trike.rental_rate_week %}
             <a class="btn btn-sm btn-block btn-default" href="mailto:{{site.mailto}}?subject=Rent: {{trike.name | uri_escape}}">Rent a {{trike.name}}</a>
