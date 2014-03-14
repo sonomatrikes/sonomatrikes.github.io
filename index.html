@@ -8,7 +8,11 @@ title: Sonoma Trikes
 
 <div class="row">
   <div class="col-md-6">
-    <img class="img-rounded img-responsive" src="http://farm4.staticflickr.com/3682/9768528354_bc7971257c_o.jpg">
+    <ul class="rslides">
+    {% for image in site.data.images.front_page %}
+      <li><img class="img-rounded img-responsive" src="/img/rotate/{{image}}">
+    {% endfor %}
+    </ul>
     <h2>Why Ride Trikes?</h2>
     <ul>
       <li>Stability – loose gravel, sand, ice, tire blowouts, etc. will not send a trike crashing to the ground.
