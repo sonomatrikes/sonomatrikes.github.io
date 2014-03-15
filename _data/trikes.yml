@@ -3,7 +3,7 @@
 - name: Adventure FS
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20FS.jpg
-  msrp: $4201.24
+  msrp: $4201
   wheels: 20"
   steering: Indirect
   folding: True
@@ -35,7 +35,7 @@
 - name: Sprint FS
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%20FS.jpg
-  msrp: $4188.36
+  msrp: $4188
   wheels: 20"
   steering: Indirect
   folding: True
@@ -59,8 +59,8 @@
 - name: VTX+
   brand: ICE
   img: http://www.icetrikes.co/image/medium/VTX%202014-00678b.jpg
-  msrp: $5829.02
-  wheels: 20"x26"
+  msrp: $5829
+  wheels: 20"x700"
   steering: Indirect
   url: http://www.icetrikes.co/explore-our-trikes/vtx
   spec_url: http://www.icetrikes.co/explore-our-trikes/vtx/configuration/(11-45)4-9-9-3
@@ -83,7 +83,7 @@
   img: https://www.hostelshoppe.com/images/products/lb_13cat_700.jpg
   msrp: $2950
   steering: Direct
-  wheels: 20"x26"
+  wheels: 20"x700"
   url: "http://www.catrike.com/#!700/c1dnt"
   rental_rate_week: $250
   description: >
@@ -383,7 +383,7 @@
 - name: Typhoon
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617629/iconpic/TYPHOON-Icon1.jpg
-  msrp: $1099
+  msrp: $1199
   wheels: 20"
   steering: Direct
   url: http://www.kmxus.com/typhoon.html
