@@ -4,10 +4,6 @@
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20FS.jpg
   msrp: $4201
-  wheels: 20"
-  steering: Indirect
-  folding: True
-  suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-6)G-9-9-3
   rental_rate_week: $350
@@ -30,16 +26,17 @@
   compare:
     comfort: 5
     speed: 3
+  details:
+    wheels: 20"
+    steering: Indirect
+    folding: True
+    suspension: Front + Rear
 
 
 - name: Sprint FS
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%20FS.jpg
   msrp: $4188
-  wheels: 20"
-  steering: Indirect
-  folding: True
-  suspension: Front + Rear
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-12)W-9-9-3
   rental_rate_week: $350
@@ -55,13 +52,17 @@
   compare:
     comfort: 5
     speed: 4
+  details:
+    wheels: 20"
+    steering: Indirect
+    folding: True
+    suspension: Front + Rear
+
 
 - name: VTX+
   brand: ICE
   img: http://www.icetrikes.co/image/medium/VTX%202014-00678b.jpg
   msrp: $5829
-  wheels: 20"x700"
-  steering: Indirect
   url: http://www.icetrikes.co/explore-our-trikes/vtx
   spec_url: http://www.icetrikes.co/explore-our-trikes/vtx/configuration/(11-45)4-9-9-3
   description: > 
@@ -75,6 +76,9 @@
   compare:
     comfort: 4
     speed: 5
+  details:
+    wheels: 20"x700"
+    steering: Indirect
 
 ## Catrike
 
@@ -82,8 +86,6 @@
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_700.jpg
   msrp: $2950
-  steering: Direct
-  wheels: 20"x700"
   url: "http://www.catrike.com/#!700/c1dnt"
   rental_rate_week: $250
   description: >
@@ -96,14 +98,15 @@
   compare:
     comfort: 2
     speed: 5
+  details:
+    steering: Direct
+    wheels: 20"x700"
 
 
 - name: Pocket
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_pocket.jpg
   msrp: $2150
-  steering: Direct
-  wheels: 20"
   url: "http://www.catrike.com/#!pocket/c1ap4"
   rental_rate_week: $250
   description: >
@@ -114,13 +117,14 @@
   compare:
     comfort: 3
     speed: 3
+  details:
+    steering: Direct
+    wheels: 20"
 
 - name: Villager
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
   msrp: $2350
-  steering: Direct
-  wheels: 20"
   url: "http://www.catrike.com/#!villager/cmei"
   rental_rate_week: $250
   description: >
@@ -132,13 +136,15 @@
   compare:
     comfort: 4
     speed: 3
+  details:
+    steering: Direct
+    wheels: 20"
+
 
 - name: Expedition
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_expedition.jpg
   msrp: $2550
-  wheels: 20"x26"
-  steering: Direct
   url: "http://www.catrike.com/#!expedition/c2465"
   rental_rate_week: $250
   description: >
@@ -151,6 +157,10 @@
   compare:
     comfort: 3
     speed: 4
+  details:
+    wheels: 20"x26"
+    steering: Direct
+
 
 
 ## Trisled
@@ -159,8 +169,6 @@
   brand: Trisled
   img: http://www.trisled.com.au/images_content/rotovelo_spec_photo_02.png
   msrp: $6850
-  steering: Direct
-  wheels: 20"
   url: "http://www.trisled.com.au/rotovelo.asp"
   order_url: "http://www.utahtrikes.com/PROD-11617955.html"
   rental_rate_week: $600
@@ -179,13 +187,15 @@
   compare:
     comfort: 4
     speed: 4
+  details:
+    steering: Direct
+    wheels: 20"
+
 
 - name: Gizmo
   brand: Trisled
   img: http://www.spincyclz.com/images/trisled_product_pics/500x300_main/g1.jpg
   msrp: $3700
-  wheels: 20"x26"
-  steering: Direct
   url: "http://www.trisled.com.au/gizmo.asp"
   rental_rate_week: $350
   description: >
@@ -199,7 +209,9 @@
   compare:
     comfort: 4
     speed: 4
-
+  details:
+    wheels: 20"x26"
+    steering: Direct
 
 
 ## TerraTrike
@@ -208,8 +220,6 @@
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/rover/roverPanel1Lg.jpg
   msrp: $1199
-  wheels: 20"
-  steering: Direct
   url: "http://www.terratrike.com/rover.php"
   rental_rate_week: $125
   description: > 
@@ -222,14 +232,16 @@
   compare:
     comfort: 4
     speed: 2
+  details:
+    wheels: 20"
+    steering: Direct
+
 
 
 - name: Rover Tandem
   brand: TerraTrike
   img: http://cdn3.volusion.com/cwfyc.waupt/v/vspfiles/photos/Rover-Tandem-2.jpg
   msrp: $2098
-  wheels: 20"
-  steering: Direct
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
   description: >
@@ -240,13 +252,15 @@
   compare:
     comfort: 4
     speed: 2
+  details:
+    wheels: 20"
+    steering: Direct
+
 
 - name: Rambler GT
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
   msrp: $2199
-  wheels: 20"
-  steering: Direct
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
   description: >
@@ -258,13 +272,15 @@
   compare:
     comfort: 4
     speed: 3
+  details:
+    wheels: 20"
+    steering: Direct
+
 
 - name: Tour II (Base)
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/tour/tourPanel1Lg.jpg
   msrp: $1699
-  wheels: 20"
-  steering: Direct
   url: "http://www.terratrike.com/tour.php"
   rental_rate_week: $150
   description: >
@@ -277,13 +293,14 @@
   compare:
     comfort: 4
     speed: 4
+  details:
+    wheels: 20"
+    steering: Direct
 
 - name: Sportster (Base)
   brand: TerraTrike
   img: http://terratrike.com/images/trikes/sportster/sportsterPanel2Lg.jpg
   msrp: $2299
-  wheels: 20"
-  steering: Direct
   url: "http://www.terratrike.com/sportster.php"
   rental_rate_week: $250
   description: >
@@ -305,6 +322,10 @@
   compare:
     comfort: 4
     speed: 4
+  details:
+    wheels: 20"
+    steering: Direct
+
 
 ## KMX
 
@@ -312,8 +333,6 @@
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617623/iconpic/KMX-K-3-Icon1.jpg
   msrp: $499
-  wheels: 12"x16"
-  steering: Direct
   url: http://www.kmxus.com/k3.html
   rental_rate_week: $50
   description: >
@@ -332,13 +351,15 @@
   compare:
     comfort: 4
     speed: 2
+  details:
+    wheels: 12"x16"
+    steering: Direct
+
 
 - name: Kompact R
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11618269/iconpic/KOMPACTRICON1.jpg
   msrp: $899
-  wheels: 16"
-  steering: Direct
   url: http://www.utahtrikes.com/PROD-11618269.html
   rental_rate_week: $50
   description: >
@@ -355,13 +376,15 @@
   compare:
     comfort: 4
     speed: 3
+  details:
+    wheels: 16"
+    steering: Direct
+
 
 - name: Venom
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617626/iconpic/venomicon1.jpg
   msrp: $1999
-  wheels: 20"x26"
-  steering: Direct
   url: http://www.kmxus.com/venom.html
   rental_rate_week: $200
   description: >
@@ -379,13 +402,15 @@
   compare:
     comfort: 4
     speed: 4
+  details:
+    wheels: 20"x26"
+    steering: Direct
+
 
 - name: Typhoon
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617629/iconpic/TYPHOON-Icon1.jpg
   msrp: $1199
-  wheels: 20"
-  steering: Direct
   url: http://www.kmxus.com/typhoon.html
   rental_rate_week: $125
   description: >
@@ -398,13 +423,15 @@
   compare:
     comfort: 4
     speed: 3
+  details:
+    wheels: 20"
+    steering: Direct
+
 
 - name: Cobra
   brand: KMX
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617627/iconpic/cobraicon1.jpg
   msrp: $1599
-  wheels: 20"x24"
-  steering: Direct
   url: http://www.kmxus.com/cobra.html
   rental_rate_week: $150
   description: >
@@ -416,3 +443,6 @@
   compare:
     comfort: 4
     speed: 3
+  details:
+    wheels: 20"x24"
+    steering: Direct
