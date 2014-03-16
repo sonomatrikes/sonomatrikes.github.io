@@ -26,22 +26,24 @@ title: Sonoma Trikes - Our Trikes
           <a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
           {% include compare.html params=trike %}
         <td>
-          <span class="manufacture">
-          {% for manufacture in site.data.manufacturers %}
-            {% if manufacture.name == trike.brand %}
-              <a href="{{manufacture.url}}" target="_blank">
-              {% if manufacture.icon %}
-              <img width="16" height="16" src="{{manufacture.icon}}">
-              {% else %}
-              <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+          <p>
+            <span class="manufacture">
+            {% for manufacture in site.data.manufacturers %}
+              {% if manufacture.name == trike.brand %}
+                <a href="{{manufacture.url}}" target="_blank">
+                {% if manufacture.icon %}
+                <img width="16" height="16" src="{{manufacture.icon}}">
+                {% else %}
+                <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+                {% endif %}
+                {{manufacture.name}}
+                </a>
               {% endif %}
-              {{manufacture.name}}
-              </a>
-            {% endif %}
-          {% endfor %}
-          </span>
-          | 
-          <a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
+            {% endfor %}
+            </span>
+            | 
+            <a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
+          </p>
           <p>{{trike.description}}</p>
         <td>
         {% if trike.spec_url %}
