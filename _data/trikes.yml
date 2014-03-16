@@ -77,7 +77,7 @@
     comfort: 4
     speed: 5
   details:
-    wheels: 20"x700"
+    wheels: 20"x700C
     steering: Indirect
 
 ## Catrike
@@ -100,7 +100,7 @@
     speed: 5
   details:
     steering: Direct
-    wheels: 20"x700"
+    wheels: 20"x700C
 
 
 - name: Pocket
