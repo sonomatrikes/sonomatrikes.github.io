@@ -1,16 +1,23 @@
   <dl>
   	<dt>Wheels</dt>
-  	<dd>{{trike.wheels | xml_escape}}</dd>
+  	<dd>{{trike.details.wheels | xml_escape}}</dd>
   	<dt>Steering</dt>
-  	<dd>{{trike.steering}}</dd>
+  	<dd>{{trike.details.steering}}</dd>
   	<dt>Folding</dt>
   	<dd>
-  		{%if trike.folding %}
+  		{%if trike.details.folding %}
   		<i class='fa fa-check text-success'></i>
   		{% else %}
   		<i class='fa fa-times text-danger'></i>
   		{% endif %}
   	</dd>
   	<dt>Suspension</dt>
-  	<dd>{{trike.suspension}}</dd>
+
+  	<dd>
+      {%if trike.details.suspension %}
+      {{trike.details.suspension}}
+      {% else %}
+      <i class='fa fa-times text-danger'></i>
+      {% endif %}
+    </dd>
   </dl>
