@@ -70,7 +70,6 @@
         </div>
       </footer>
     </div>
-    {% include ga.html %}
     <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.min.js"></script>
@@ -80,6 +79,13 @@
     <script type="text/javascript">
       $(function() {
         $(".rslides").responsiveSlides({timeout: 10000, random: true});
+      });
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        $(".btn-email").on('click', function(){
+          ga('send', 'event', 'button', 'click', 'email');
+        });
       });
     </script>
     <script type="text/javascript">
