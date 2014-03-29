@@ -33,6 +33,16 @@ dl.compare {
   width: 1.2857142857142858rem;
 }
 
+.img-logo {
+  position: absolute;
+  z-index: 3;
+  right: 25px;
+  top: 15px;
+  max-width: 25%;
+  height: auto;
+  display: block;
+}
+
 .rslides {
   position: relative;
   list-style: none;
