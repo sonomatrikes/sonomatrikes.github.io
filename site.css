@@ -49,6 +49,11 @@ dl.compare {
   display: block;
 }
 
+.img-inline {
+  margin: 1em;
+  max-width: 20em;
+}
+
 .rslides {
   position: relative;
   list-style: none;
