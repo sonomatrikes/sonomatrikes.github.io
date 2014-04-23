@@ -1,6 +1,7 @@
 ## ICE
 
 - name: Adventure FS
+  in_stock: FALSE
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20FS.jpg
   msrp: $4201
@@ -15,7 +16,7 @@
     are available as an HD (Heavy Duty) option, giving a sturdier frame, wider
     seat and increased cockpit space. The HD is ideal for the larger or taller
     rider. There are several models to choose from depending on your particular
-    needs or desired comfort level. The base Adventure comes w/o any susenpion,
+    needs or desired comfort level. The base Adventure comes w/o any suspension,
     the RS with rear susp., FS with full susp. There is FS+ model with upgraded
     componentry, and the Heavy Duty HD which is 2" wider and 2" longer with a
     2" wider seat and cockpit available on all models.  The latest variation
@@ -32,6 +33,52 @@
     folding: True
     suspension: Front + Rear
 
+- name: Adventure FS HD
+  in_stock: TRUE
+  brand: ICE
+  img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
+  msrp: $4295
+  url: http://www.icetrikes.co/explore-our-trikes/adventure
+  spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-36)G-9-9-4
+  rental_rate_week: $350
+  description: > 
+    The ICE Adventure folding recumbent trike line is ideal for exploring the
+    trails or loading up for your next big adventure. With a higher riding
+    position and more upright seating position the Adventure gives excellent
+    accessibility and a great view of the trail ahead. All Adventure models
+    are available as an HD (Heavy Duty) option, giving a sturdier frame, wider
+    seat and increased cockpit space. The HD is ideal for the larger or taller
+    rider. 
+  compare:
+    comfort: 5
+    speed: 3
+  details:
+    wheels: 20"
+    steering: Indirect
+    folding: True
+    suspension: Front + Rear
+
+- name: Adventure
+  in_stock: TRUE
+  brand: ICE
+  img: http://www.icetrikes.co/image/medium/st2011%2010%20Adventure.jpg
+  msrp: $3010
+  url: http://www.icetrikes.co/explore-our-trikes/adventure
+  spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-3)G-9-9-4
+  rental_rate_week: $250
+  description: > 
+    The ICE Adventure folding recumbent trike line is ideal for exploring the
+    trails or loading up for your next big adventure. With a higher riding
+    position and more upright seating position the Adventure gives excellent
+    accessibility and a great view of the trail ahead. 
+  compare:
+    comfort: 4
+    speed: 3
+  details:
+    wheels: 20"
+    steering: Indirect
+    folding: True
+
 
 - name: Sprint FS
   brand: ICE
@@ -45,7 +92,7 @@
     and long-distance comfort. With a mid-height seating position and ICE’s
     renowned handling the Sprint is a trike which has to be explored. All Sprint
     models are available with an X-type upgrade, giving race-specification
-    components. The base Sprint 26 comes w/o any susenpion and a 26", the RS with
+    components. The base Sprint 26 comes w/o any suspension and a 26", the RS with
     rear susp., and the FS with full susp. There are also 26X, RSX and FSX model with
     upgraded componentry. All Sprints have angle adjustable seat and adjustable boom 
     length, hardshell seat option, and seat brackets for taller or shorter riders.
