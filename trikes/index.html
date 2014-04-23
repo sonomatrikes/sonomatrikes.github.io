@@ -31,6 +31,7 @@ title: Sonoma Trikes - Our Trikes
     </thead>
     <tbody>
     {% for trike in site.data.trikes %}
+    {% if trike.in_stock or trike.in_stock == null %}
       <tr>
         <td>
           <a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
@@ -78,6 +79,7 @@ title: Sonoma Trikes - Our Trikes
             </button>
         </td>
       </tr>
+    {% endif %}
     {% endfor %}
     </tbody>
   </table>
