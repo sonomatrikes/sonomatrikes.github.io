@@ -32,7 +32,7 @@ title: Sonoma Trikes - Our Trikes
     <tbody>
     {% for trike in site.data.trikes %}
     {% if trike.listed or trike.listed == null %}
-      <tr id="{{trike.name | strip | downcase }}">
+      <tr id="{{trike.name | strip | handleize | downcase }}">
         <td>
           <a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
           {% include compare.html params=trike %}
