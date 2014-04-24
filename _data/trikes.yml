@@ -346,11 +346,10 @@
     wheels: 20"
     steering: Direct
 
-
-- name: Rambler GT
+- name: Rambler 8spd Nexus
   brand: TerraTrike
-  img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
-  msrp: $2199
+  img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1.jpg
+  msrp: $1499
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
   description: >
@@ -358,12 +357,36 @@
     Rover, offering a more comfortable ride.  It is also 5-9lbs lighter then the
     Rover 8, making loading into a vehicle or motoring up a hill a little easier.
     There is a whole range of upgrades and gearing options if you decide you would
-    like to customize your Rambler down the road.
+    like to customize your Rambler down the road.  The 8 speed Nexus model has the
+    same internally geared hub that the Rover 8spd Nexus, which allows you to shift
+    gears without pedalling, quick a treat once you experience it.
   compare:
     comfort: 4
     speed: 3
   details:
     wheels: 20"
+    steering: Direct
+
+- name: Rambler GT w/24" All-Road Wheel Package
+  brand: TerraTrike
+  img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
+  msrp: $2599
+  url: "http://www.terratrike.com/rambler.php"
+  rental_rate_week: $150
+  description: >
+    The Rambler has a more vertically compliant chromoly steel frame then the
+    Rover, offering a more comfortable ride.  It is also 5-9lbs lighter then the
+    Rover 8, making loading into a vehicle or motoring up a hill a little easier.
+    There is a whole range of upgrades and gearing options if you decide you would
+    like to customize your Rambler down the road.  The large wheels on the All-Road
+    wheel package make this particular Rambler ready for anything, and gives
+    riders with knee problems an easier/higher seating positon, and a better view
+    of the road.
+  compare:
+    comfort: 5
+    speed: 4
+  details:
+    wheels: 24"
     steering: Direct
 
 
