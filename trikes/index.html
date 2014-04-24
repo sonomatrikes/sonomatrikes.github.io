@@ -36,9 +36,6 @@ title: Sonoma Trikes - Our Trikes
         <td>
           <a href="{{trike.url}}" target="_blank"><img class="img-rounded" width="160" src="{{trike.img}}"></a>
           {% include compare.html params=trike %}
-          {% if trike.backordered %}
-          <span class="label label-warning"><i class="fa fa-frown-o"></i> Backordered</span>
-          {% endif %}
         <td>
           <p>
             <span class="manufacture">
@@ -57,6 +54,9 @@ title: Sonoma Trikes - Our Trikes
             </span>
             | 
             <a href="{{trike.url}}" target="_blank">{{trike.name}}</a>
+            {% if trike.backordered %}
+            <span class="label label-warning"><i class="fa fa-frown-o"></i> Backordered</span>
+            {% endif %}
           </p>
           <p>{{trike.description}}</p>
         <td>
