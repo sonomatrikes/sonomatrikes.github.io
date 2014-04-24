@@ -1,7 +1,7 @@
 ## ICE
 
 - name: Adventure FS
-  in_stock: FALSE
+  listed: FALSE
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%2010%20Adventure%20FS.jpg
   msrp: $4201
@@ -34,7 +34,6 @@
     suspension: Front + Rear
 
 - name: Adventure FS HD
-  in_stock: TRUE
   brand: ICE
   img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
   msrp: $4295
@@ -59,7 +58,6 @@
     suspension: Front + Rear
 
 - name: Adventure
-  in_stock: TRUE
   brand: ICE
   img: http://www.icetrikes.co/image/medium/st2011%2010%20Adventure.jpg
   msrp: $3010
@@ -149,25 +147,6 @@
     steering: Direct
     wheels: 20"x700C
 
-
-- name: Pocket
-  brand: Catrike
-  img: https://www.hostelshoppe.com/images/products/lb_13cat_pocket.jpg
-  msrp: $2150
-  url: "http://www.catrike.com/#!pocket/c1ap4"
-  rental_rate_week: $250
-  description: >
-    A Small Space Frame Catrike with big features. It has a narrow track, 
-    is quick and lightweight.  Perfect for smaller riders. The Pocket had a 
-    fixed 41deg. seating position, adjustable boom for different leg lengths,
-    and includes a rear fender, mirror and padded wrist rests.
-  compare:
-    comfort: 3
-    speed: 3
-  details:
-    steering: Direct
-    wheels: 20"
-
 - name: Villager
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
@@ -186,28 +165,6 @@
   details:
     steering: Direct
     wheels: 20"
-
-
-- name: Expedition
-  brand: Catrike
-  img: https://www.hostelshoppe.com/images/products/lb_13cat_expedition.jpg
-  msrp: $2550
-  url: "http://www.catrike.com/#!expedition/c2465"
-  rental_rate_week: $250
-  description: >
-    The Expedition is a long wheel base Sport-Luxury Catrike. Capable of
-    handling heavy loads for long distance touring and a fast performance ride.
-    The Expedition had a fixed 37deg. seating position, adjustable boom for 
-    different leg lengths, and includes a rear fender, neckrest, mirror and
-    padded wrist rests.  This is Catrikes most popular model with a great
-    balance of performance and comfort.
-  compare:
-    comfort: 3
-    speed: 4
-  details:
-    wheels: 20"x26"
-    steering: Direct
-
 
 
 ## Trisled
