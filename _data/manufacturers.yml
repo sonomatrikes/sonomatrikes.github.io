@@ -1,6 +1,7 @@
 - name: ICE 
   url: http://www.icetrikes.co/
   description: UK touring and performance recumbent trikes
+  accessories_url: http://www.icetrikes.co/explore-our-trikes/adventure/accessories
 
 - name: KMX
   url: http://www.kmxus.com/
@@ -19,3 +20,4 @@
   url: http://www.terratrike.com/
   icon: http://www.terratrike.com/images/pageElements/favicon.ico
   description: Recumbent trikes for every need and budget
+  accessories_url: http://shop.terratrike.com/category-s/1839.htm

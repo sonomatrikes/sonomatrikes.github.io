@@ -32,3 +32,21 @@ title: Sonoma Trikes - Upgrades & Accessories
     <p><img src="https://farm3.staticflickr.com/2861/12839934874_685486c3a6_z_d.jpg" class="img-rounded img-responsive"></p>
   </div>
 </div>
+<section>
+  <h3>Selected Manufacturers Accessories</h3>
+  <p>We cary manufacture specific accessories to improve your triking experence.</p>
+  <ul class="list-unstyled">
+  {% for manufacture in site.data.manufacturers %}
+  {% if manufacture.accessories_url %}
+    <li >
+      {% if manufacture.icon %}
+      <img width="16" height="16" src="{{manufacture.icon}}">
+      {% else %}
+      <img width="16" height="16" src="{{manufacture.url}}favicon.ico">
+      {% endif %}
+      <a href="{{manufacture.accessories_url}}">{{manufacture.name}}</a>
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+</section>
