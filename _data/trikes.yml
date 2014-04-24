@@ -245,6 +245,7 @@
 - name: Rover Tandem
   brand: TerraTrike
   img: http://cdn3.volusion.com/cwfyc.waupt/v/vspfiles/photos/Rover-Tandem-2.jpg
+  backordered: TRUE
   msrp: $2098
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
