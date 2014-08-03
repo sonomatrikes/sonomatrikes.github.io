@@ -3,7 +3,7 @@
 - name: Adventure HD
   brand: ICE
   img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
-  backordered: TRUE
+  backordered: FALSE
   msrp: $3020
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-3)G-9-9-4
@@ -27,7 +27,7 @@
 - name: Adventure FS HD
   brand: ICE
   img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
-  backordered: TRUE
+  backordered: FALSE
   msrp: $4295
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-36)G-9-9-4
@@ -52,7 +52,7 @@
 - name: Adventure RS HD
   brand: ICE
   img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
-  backordered: TRUE
+  backordered: FALSE
   msrp: $3635
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-35)G-9-9-4
@@ -137,7 +137,7 @@
 - name: Sprint RS
   brand: ICE
   img: http://www.icetrikes.co/image/medium/st2011%209%20sprint%20RS.jpg
-  backordered: TRUE
+  backordered: FALSE
   msrp: $3581
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-22)W-9-9-4
@@ -192,6 +192,7 @@
 - name: VTX+
   brand: ICE
   img: http://www.icetrikes.co/image/medium/VTX%202014-00678b.jpg
+  backordered: TRUE
   msrp: $5829
   url: http://www.icetrikes.co/explore-our-trikes/vtx
   spec_url: http://www.icetrikes.co/explore-our-trikes/vtx/configuration/(11-45)4-9-9-3
@@ -235,6 +236,7 @@
 - name: Villager
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
+  listed: FALSE
   msrp: $2350
   url: "http://www.catrike.com/#!villager/cmei"
   rental_rate_week: $250
@@ -257,6 +259,7 @@
 - name: Rotovelo
   brand: Trisled
   img: http://www.trisled.com.au/images_content/rotovelo_spec_photo_02.png
+  backordered: TRUE
   msrp: $6850
   url: "http://www.trisled.com.au/rotovelo.asp"
   order_url: "http://www.utahtrikes.com/PROD-11617955.html"
@@ -330,7 +333,7 @@
 - name: Rover Tandem
   brand: TerraTrike
   img: http://cdn3.volusion.com/cwfyc.waupt/v/vspfiles/photos/Rover-Tandem-2.jpg
-  backordered: TRUE
+  backordered: FALSE
   msrp: $2098
   url: "http://shop.terratrike.com/Rover-Tandem-Attachment-p/tt800046.htm"
   rental_rate_week: $250
@@ -349,6 +352,7 @@
 - name: Rambler 8spd Nexus
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1.jpg
+  listed: FALSE
   msrp: $1499
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
@@ -370,6 +374,7 @@
 - name: Rambler GT w/24" All-Road Wheel Package
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
+  listed: FALSE
   msrp: $2599
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
@@ -413,6 +418,7 @@
 - name: Sportster (Custom 30spd)
   brand: TerraTrike
   img: http://terratrike.com/images/trikes/sportster/sportsterPanel2Lg.jpg
+  listed: FALSE
   msrp: $3299
   url: "http://www.terratrike.com/sportster.php"
   rental_rate_week: $250
