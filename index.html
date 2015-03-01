@@ -84,7 +84,7 @@ title: Sonoma Trikes
 function initialize() {
   var mapOptions = {
     zoom: 14,
-    center: new google.maps.LatLng(38.322743,-122.6805841)
+    center: new google.maps.LatLng(38.3225159, -122.6820593)
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'),
                                 mapOptions);
@@ -93,7 +93,7 @@ function initialize() {
   var bikeLayer = new google.maps.BicyclingLayer();
   bikeLayer.setMap(map);
 
-  var myLatLng = new google.maps.LatLng(38.322743,-122.6805841);
+  var myLatLng = new google.maps.LatLng(38.3225159, -122.6820593);
   var marker = new google.maps.Marker({
       position: myLatLng,
       map: map,
