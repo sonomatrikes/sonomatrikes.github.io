@@ -3,7 +3,7 @@
 - name: Adventure HD
   brand: ICE
   img: http://www.icetrikes.co/image/medium/Adventure%20HD%20Main%20Image.jpg
-  backordered: FALSE
+  backordered: TRUE
   msrp: $3020
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-3)G-9-9-4
@@ -137,7 +137,7 @@
 - name: Sprint RS
   brand: ICE
   img: http://www.icetrikes.co/image/medium/st2011%209%20sprint%20RS.jpg
-  backordered: FALSE
+  backordered: TRUE
   msrp: $3581
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-22)W-9-9-4
@@ -219,6 +219,7 @@
   msrp: $2950
   url: "http://www.catrike.com/#!700/c1dnt"
   rental_rate_week: $250
+  backordered: TRUE
   description: >
     The 700 is designed as a no compromises speed machine. It is the longest,
     lowest, narrowest and lightest trike from Catrike. For 2013 20" wheels
@@ -236,6 +237,7 @@
 - name: Villager
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
+  backordered: FALSE
   listed: FALSE
   msrp: $2350
   url: "http://www.catrike.com/#!villager/cmei"
@@ -284,28 +286,6 @@
     wheels: 20"
 
 
-- name: Gizmo
-  brand: Trisled
-  img: http://www.spincyclz.com/images/trisled_product_pics/500x300_main/g1.jpg
-  msrp: $3700
-  url: "http://www.trisled.com.au/gizmo.asp"
-  rental_rate_week: $350
-  description: >
-    Originally released in 2002, the Gizmo distilled what Trisled had learned in
-    trike design from the previous decade into a sport trike that still holds
-    its own in the tadpole trike market.What differentiates the Gizmo is the
-    lightweight separable steel frame, and incredibly comfortable carbon
-    hardshell seat with a built-in head rest. The Gizmo can serve as a sporty
-    daily commuter, or be packed up and taken to your favorite cycling
-    destination for an extended touring expedition.
-  compare:
-    comfort: 4
-    speed: 4
-  details:
-    wheels: 20"x26"
-    steering: Direct
-
-
 ## TerraTrike
 
 - name: Rover
@@ -352,7 +332,8 @@
 - name: Rambler 8spd Nexus
   brand: TerraTrike
   img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1.jpg
-  listed: FALSE
+  backordered: FALSE
+  listed: TRUE
   msrp: $1499
   url: "http://www.terratrike.com/rambler.php"
   rental_rate_week: $150
@@ -369,29 +350,6 @@
     speed: 3
   details:
     wheels: 20"
-    steering: Direct
-
-- name: Rambler GT w/24" All-Road Wheel Package
-  brand: TerraTrike
-  img: http://www.terratrike.com/images/trikes/rambler/ramblerPanel1Lg.jpg
-  listed: FALSE
-  msrp: $2599
-  url: "http://www.terratrike.com/rambler.php"
-  rental_rate_week: $150
-  description: >
-    The Rambler has a more vertically compliant chromoly steel frame then the
-    Rover, offering a more comfortable ride.  It is also 5-9lbs lighter then the
-    Rover 8, making loading into a vehicle or motoring up a hill a little easier.
-    There is a whole range of upgrades and gearing options if you decide you would
-    like to customize your Rambler down the road.  The large wheels on the All-Road
-    wheel package make this particular Rambler ready for anything, and gives
-    riders with knee problems an easier/higher seating positon, and a better view
-    of the road.
-  compare:
-    comfort: 5
-    speed: 4
-  details:
-    wheels: 24"
     steering: Direct
 
 
@@ -421,7 +379,7 @@
   listed: FALSE
   msrp: $3299
   url: "http://www.terratrike.com/sportster.php"
-  rental_rate_week: $250
+  rental_rate_week: $550
   description: >
     Want to go fast? Really fast? Then the Sportster is your machine. The 
     undisputed Ferrari of the Terratrike lineup is the culmination of 16
@@ -453,7 +411,7 @@
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617623/iconpic/KMX-K-3-Icon1.jpg
   msrp: $499
   url: http://www.kmxus.com/k3.html
-  rental_rate_week: $50
+  rental_rate_week: $75
   description: >
     Despite its small size and affordable price, the KMX K-3 has many 
     features that adults will love. The unique 2-speed shifting system 
@@ -480,7 +438,7 @@
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11618269/iconpic/KOMPACTRICON1.jpg
   msrp: $899
   url: http://www.utahtrikes.com/PROD-11618269.html
-  rental_rate_week: $50
+  rental_rate_week: $75
   description: >
     Great for smaller people and kids of all abilities due to low center 
     of gravity and high stability. The Kompact has 4.5" of sliding 
@@ -505,7 +463,7 @@
   img: http://www.utahtrikes.com/uploads/utupgradesproducts/11617626/iconpic/venomicon1.jpg
   msrp: $1999
   url: http://www.kmxus.com/venom.html
-  rental_rate_week: $200
+  rental_rate_week: $400
   description: >
     The KMX Venom represents a new level of performance. The Venom frame
     is made entirely of custom aluminum extrusion for a light-weight and 
@@ -531,7 +489,7 @@
   img: http://kmxus.com/uploads/tu_productdetails/43/pic/Back.jpg
   msrp: $1199
   url: http://www.kmxus.com/typhoon.html
-  rental_rate_week: $125
+  rental_rate_week: $200
   description: >
     The Typhoon is a fantastic trike for adults and teens alike. With
     he Schwalbe Big Apple tires and comfy bucket seat it will give you
@@ -552,7 +510,8 @@
   img: http://kmxus.com/uploads/tu_productdetails/33/pic/CobraSide.jpg
   msrp: $1599
   url: http://www.kmxus.com/cobra.html
-  rental_rate_week: $150
+  backordered: TRUE
+  rental_rate_week: $200
   description: >
     The Cobra is known as the Mountain Triker. For men and women who 
     crave exhilarating off-road riding on any terrain. This 
