@@ -31,7 +31,7 @@
   msrp: $4295
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-36)G-9-9-4
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Adventure folding recumbent trike line is ideal for exploring the
     trails or loading up for your next big adventure. With a higher riding
@@ -56,7 +56,7 @@
   msrp: $3635
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-35)G-9-9-4
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Adventure folding recumbent trike line is ideal for exploring the
     trails or loading up for your next big adventure. With a higher riding
@@ -82,7 +82,7 @@
   msrp: $4200
   url: http://www.icetrikes.co/explore-our-trikes/adventure
   spec_url: http://www.icetrikes.co/explore-our-trikes/adventure/configuration/(1-6)G-9-9-3
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Adventure folding recumbent trike line is ideal for exploring the
     trails or loading up for your next big adventure. With a higher riding
@@ -115,7 +115,7 @@
   msrp: $3022
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-22)W-9-9-4
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Sprint folding trike line is the ultimate fusion of sporting performance
     and long-distance comfort. With a mid-height seating position and ICE’s
@@ -133,6 +133,7 @@
     steering: Indirect
     folding: True
     suspension: None/Optional
+
 
 - name: Sprint RS
   brand: ICE
@@ -141,7 +142,7 @@
   msrp: $3581
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-22)W-9-9-4
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Sprint folding trike line is the ultimate fusion of sporting performance
     and long-distance comfort. With a mid-height seating position and ICE’s
@@ -161,15 +162,13 @@
     suspension: None/Optional
 
 
-
-
 - name: Sprint FS
   brand: ICE
   img: http://www.icetrikes.co/image/overlay/st2011%209%20sprint%20FS.jpg
   msrp: $4188
   url: http://www.icetrikes.co/explore-our-trikes/sprint
   spec_url: http://www.icetrikes.co/explore-our-trikes/sprint/configuration/(2-12)W-9-9-3
-  rental_rate_week: $350
+  rental_rate_week: $550
   description: > 
     The ICE Sprint folding trike line is the ultimate fusion of sporting performance
     and long-distance comfort. With a mid-height seating position and ICE’s
@@ -220,6 +219,7 @@
   url: "http://www.catrike.com/#!700/c1dnt"
   rental_rate_week: $250
   backordered: TRUE
+  listed: FALSE
   description: >
     The 700 is designed as a no compromises speed machine. It is the longest,
     lowest, narrowest and lightest trike from Catrike. For 2013 20" wheels
@@ -237,11 +237,10 @@
 - name: Villager
   brand: Catrike
   img: https://www.hostelshoppe.com/images/products/lb_13cat_villager.jpg
-  backordered: FALSE
-  listed: FALSE
+  backordered: TRUE
+  listed: TRUE
   msrp: $2350
   url: "http://www.catrike.com/#!villager/cmei"
-  rental_rate_week: $250
   description: >
     The Villager is a high quality, adjustable user-friendly Catrike, with an
     extra wide cross member and high seat at 12.5" it is easy to get on and off yet very
@@ -261,7 +260,6 @@
 - name: Rotovelo
   brand: Trisled
   img: http://www.trisled.com.au/images_content/rotovelo_spec_photo_02.png
-  backordered: TRUE
   msrp: $6850
   url: "http://www.trisled.com.au/rotovelo.asp"
   order_url: "http://www.utahtrikes.com/PROD-11617955.html"
