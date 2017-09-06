@@ -36,24 +36,6 @@ title: Sonoma Trikes
       <h2>Get your own Trike!</h2>
       <p>{% include hours.html %} To arrange a visit please call or text <a href="tel:+1-707-559-8101">(707) 559-8101</a> or email us at <a href="mailto:sonomatrikes@gmail.com">sonomatrikes@gmail.com</a>.
       </p>
-      <div class="row">
-        <div class="col-xs-6">
-          <p><img class="img-rounded img-responsive" src="/img/shop/2014-08-02.jpg"></p>
-        </div>
-        <div class="col-xs-6">
-          <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <a href="https://www.google.com/maps/place/1400+Valley+House+Dr/@38.322743,-122.6805841,17z/data=!3m1!4b1!4m2!3m1!1s0x80844ae44b762e79:0xb8b09fe22a1a774d">
-              <span itemprop="streetAddress">1400 Valley House Road, Suite A</span><br />
-              <span itemprop="addressLocality">Rohnert Park</span>,
-              <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94928</span>
-            </a>
-          </p>
-          <p>
-          Located in the Sonoma Mountain Village, west of Sally Tomatoes, in the maintence/ warehouse area near the Comcast truck lot, railroad track and big soccer field.
-          </p>
-        </div>
-      </div>
-      <div id="map-canvas"></div>
     </section>
     <section>
       <h2>Our Manufacturers</h2>
@@ -77,30 +59,3 @@ title: Sonoma Trikes
     </section>
   </div>
 </div>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<script>
-function initialize() {
-  var mapOptions = {
-    zoom: 14,
-    center: new google.maps.LatLng(38.3225159, -122.6820593)
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'),
-                                mapOptions);
-
-
-  var bikeLayer = new google.maps.BicyclingLayer();
-  bikeLayer.setMap(map);
-
-  var myLatLng = new google.maps.LatLng(38.3225159, -122.6820593);
-  var marker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      title: 'Sonoma Trikes'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
