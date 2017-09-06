@@ -1,5 +1,5 @@
 name: Sonoma Trikes
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 mailto: sonomatrikes@gmail.com
